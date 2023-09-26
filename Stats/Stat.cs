@@ -33,7 +33,14 @@ namespace BloodmaskCharacterCalculator.Stats
         public int Value
         {
             get { return _value; }
-            protected set { _value = value; }
+            protected set { 
+                if(value < 0)
+                    throw new ArgumentOutOfRangeException("Value is negative");
+                if(value > int.MaxValue)
+                    value = int.MaxValue;
+                else
+                    _value = value;
+            }
         }
         #endregion
 
@@ -54,5 +61,13 @@ namespace BloodmaskCharacterCalculator.Stats
         }
         #endregion
 
+        public void IncreaseValueByPercentage(float percentage)
+        {
+            _value = (int)(_value + (_value * percentage));
+        }
+        public virtual void CalculateDerivedStat()
+        {
+            // Intentionally left blank to be overriden by derived classes
+        }
     }
 }
