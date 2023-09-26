@@ -58,7 +58,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Races\Derived\Colossus.cs" />
+    <Compile Include="Races\Derived\Demon.cs" />
     <Compile Include="Races\Derived\Human.cs" />
+    <Compile Include="Races\Derived\Lurker.cs" />
+    <Compile Include="Races\Derived\Nordic.cs" />
+    <Compile Include="Races\Derived\Primordial.cs" />
+    <Compile Include="Races\Derived\Undead.cs" />
     <Compile Include="Races\Race.cs" />
     <Compile Include="Stats\Common\Health.cs" />
     <Compile Include="Stats\Common\Vigor.cs" />
@@ -99,6 +105,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="GameData\Config\RaceConfig\Undead.json" />
+    <None Include="GameData\Config\RaceConfig\Human.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameData\Config\ClassConfig\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

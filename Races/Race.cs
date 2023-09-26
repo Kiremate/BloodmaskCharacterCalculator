@@ -53,13 +53,18 @@ namespace BloodmaskCharacterCalculator.Races
             InitializateDefaultStats();
         }
         // Parameterized Constructor
-        public Race(string name, E_Races type, string perks, string backgroundStory, List<Stat> additionalStats = null)
+        public Race(string name, E_Races type, string perks, string backgroundStory, List<Stat> defaultStats)
         {
+            // Data Validation
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(perks) || string.IsNullOrEmpty(backgroundStory) || defaultStats == null)
+            {
+                throw new ArgumentException("Missing required attributes");
+            }
             _name = name;
             _type = type;
             _perks = perks;
             _backgroundStory = backgroundStory;
-            _defaultStats = additionalStats ?? new List<Stat>(); // We add the additionalStats if not null to the current default stats
+            _defaultStats = defaultStats;
             InitializateDefaultStats();
         }
         #endregion 
@@ -89,19 +94,19 @@ namespace BloodmaskCharacterCalculator.Races
                 case E_Races.Human:
                     return JsonConvert.DeserializeObject<Human>(json);
                 case E_Races.Demon:
-                    return JsonConvert.DeserializeObject<Human>(json);
+                    return JsonConvert.DeserializeObject<Demon>(json);
                 case E_Races.Lurker:
-                    return JsonConvert.DeserializeObject<Human>(json);
+                    return JsonConvert.DeserializeObject<Lurker>(json);
                 case E_Races.Undead:
-                    return JsonConvert.DeserializeObject<Human>(json);
+                    return JsonConvert.DeserializeObject<Undead>(json);
                 case E_Races.Primordial:
-                    return JsonConvert.DeserializeObject<Human>(json);
+                    return JsonConvert.DeserializeObject<Primordial>(json);
                 case E_Races.Colossus:
-                    return JsonConvert.DeserializeObject<Human>(json);
+                    return JsonConvert.DeserializeObject<Colossus>(json);
                 case E_Races.Nordic:
-                    return JsonConvert.DeserializeObject<Human>(json);
-
-                default: // This would be a weird case
+                    return JsonConvert.DeserializeObject<Nordic>(json);
+                // TODO Check this
+                default: // This would be a weird case perhaps throw an exception?
                     return race;
             }
         }

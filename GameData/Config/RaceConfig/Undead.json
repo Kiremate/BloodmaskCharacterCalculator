@@ -1,0 +1,36 @@
+{
+  "Name": "Undead",
+  "Type": "Undead",
+  "Perks": "Necrotic Resilience, Unholy Patience",
+  "BackgroundStory": "Undead characters have improved resistance to necrotic and poison damage. Their grim origin also provides them with unholy strength, increasing their melee damage.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 21
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 18
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 19
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 16
+    },
+    {
+      "StatType": "Strength",
+      "Value": 21
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 20
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 18
+    }
+  ]
+}

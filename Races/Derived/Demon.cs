@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace BloodmaskCharacterCalculator.Races.Derived
 {
-    public  class Human : Race
+    public class Demon : Race
     {
         [JsonConstructor]
-        public Human(string name, E_Races type, string perks, string backgroundStory, List<Stat> defaultStats) : base(name, type, perks, backgroundStory, defaultStats) { }
+        public Demon(string name, E_Races type, string perks, string backgroundStory, List<Stat> defaultStats) : base(name, type, perks, backgroundStory, defaultStats) { }
     }
 }

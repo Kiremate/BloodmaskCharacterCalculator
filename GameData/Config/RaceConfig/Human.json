@@ -1,0 +1,36 @@
+{
+  "Name": "Human",
+  "Type": "Human",
+  "Perks": "Enhanced Intelligence, Environmental Adaptability",
+  "BackgroundStory": "Humans in the Bloodmask universe possess a natural affinity for complex problem-solving, which grants them a bonus to Intelligence stats. Their uncanny ability to adapt technologies to different biomes gives them a bonus to Endurance when facing environmental challenges.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 18
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 20
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 20
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 22
+    },
+    {
+      "StatType": "Strength",
+      "Value": 18
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 21
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 16
+    }
+  ]
+}
