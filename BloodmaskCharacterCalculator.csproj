@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Stats\Common\Health.cs" />
+    <Compile Include="Stats\Common\Vigor.cs" />
+    <Compile Include="Stats\Power\Dexterity.cs" />
+    <Compile Include="Stats\Power\Intelligence.cs" />
+    <Compile Include="Stats\Power\Strength.cs" />
+    <Compile Include="Stats\Special\Endurance.cs" />
+    <Compile Include="Stats\Special\Radiation Affinity.cs" />
+    <Compile Include="Stats\Stat.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
