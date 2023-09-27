@@ -1,0 +1,36 @@
+{
+  "Name": "Lurker",
+  "Type": "Lurker",
+  "Perks": "Scavenger's Luck, Adaptive Survivalism",
+  "BackgroundStory": "Lurkers excel at scavenging, gaining extra resources when looting. Their genetic mutations give them a random resistance that can adapt over time.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 20
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 18
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 21
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 17
+    },
+    {
+      "StatType": "Strength",
+      "Value": 18
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 20
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 19
+    }
+  ]
+}

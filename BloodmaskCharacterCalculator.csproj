@@ -105,6 +105,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="GameData\Config\RaceConfig\Colossus.json" />
+    <None Include="GameData\Config\RaceConfig\Demon.json" />
+    <None Include="GameData\Config\RaceConfig\Nordic.json" />
+    <None Include="GameData\Config\RaceConfig\Primordial.json" />
+    <None Include="GameData\Config\RaceConfig\Lurker.json" />
     <None Include="GameData\Config\RaceConfig\Undead.json" />
     <None Include="GameData\Config\RaceConfig\Human.json" />
     <None Include="packages.config" />

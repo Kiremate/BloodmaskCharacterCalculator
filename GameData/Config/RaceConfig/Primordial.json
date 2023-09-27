@@ -1,0 +1,36 @@
+{
+  "Name": "Primordial",
+  "Type": "Primordial",
+  "Perks": "Hive Mind Resonance, Elemental Affinity",
+  "BackgroundStory": "Although disconnected from the Hive Mind, Primordials still possess a form of innate empathy with plant life, allowing for unique interactions with the environment. They also have an affinity for elemental magic, granting them a boost in elemental damage output.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 17
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 19
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 18
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 23
+    },
+    {
+      "StatType": "Strength",
+      "Value": 17
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 19
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 22
+    }
+  ]
+}

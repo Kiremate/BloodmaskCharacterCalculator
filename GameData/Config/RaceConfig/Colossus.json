@@ -1,0 +1,36 @@
+{
+  "Name": "Colossus",
+  "Type": "Colossus",
+  "Perks": "Herculean Strength, Impenetrable Hide",
+  "BackgroundStory": "The Colossus boasts unparalleled physical strength, allowing them to wield heavy weapons effortlessly and carry more items. Their thick skin offers increased resistance to physical damage.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 24
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 17
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 15
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 16
+    },
+    {
+      "StatType": "Strength",
+      "Value": 24
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 21
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 17
+    }
+  ]
+}

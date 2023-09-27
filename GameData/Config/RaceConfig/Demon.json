@@ -1,0 +1,36 @@
+{
+  "Name": "Demon",
+  "Type": "Demon",
+  "Perks": "Demonic Possession, Infernal Constitution",
+  "BackgroundStory": "Demons can temporarily possess or control lesser creatures, making them allies for a short time. Their demonic constitution gives them resistance to fire damage.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 19
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 21
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 20
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 20
+    },
+    {
+      "StatType": "Strength",
+      "Value": 19
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 18
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 20
+    }
+  ]
+}

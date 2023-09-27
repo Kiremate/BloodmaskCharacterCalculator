@@ -1,0 +1,36 @@
+{
+  "Name": "Nordic",
+  "Type": "Nordic",
+  "Perks": "Frost Resistance, Savage Ferocity",
+  "BackgroundStory": "The Nordic race has innate resistance to frost and cold environmental effects. Their savage nature grants them a critical strike chance increase when they are below half health.",
+  "DefaultStats": [
+    {
+      "StatType": "Health",
+      "Value": 20
+    },
+    {
+      "StatType": "Vigor",
+      "Value": 19
+    },
+    {
+      "StatType": "Dexterity",
+      "Value": 19
+    },
+    {
+      "StatType": "Intelligence",
+      "Value": 18
+    },
+    {
+      "StatType": "Strength",
+      "Value": 22
+    },
+    {
+      "StatType": "Endurance",
+      "Value": 22
+    },
+    {
+      "StatType": "Radiation Affinity",
+      "Value": 15
+    }
+  ]
+}
